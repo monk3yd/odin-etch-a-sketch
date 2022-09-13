@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
     font-size: 1.8rem;
     min-height: 100vh;
 }
