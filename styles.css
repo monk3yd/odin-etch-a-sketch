@@ -26,3 +26,7 @@ body {
     min-height: inherit;
     width: 100vw;
 }
+
+.hovered {
+    background-color: red;
+}
