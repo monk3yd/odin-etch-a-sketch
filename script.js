@@ -5,15 +5,16 @@ for (let i = 0; i < 16; i++) {
     rowDiv = document.createElement("div");
     // Give them a class for styling with CSS
     rowDiv.classList.add("row");
-    rowDiv.style.display = "flex";
-    rowDiv.style.justifyContent = "space-around";
+    rowDiv.style.cssText = `display: flex;
+        justify-content: space-around; 
+        flex: 1;
+        gap: 1rem;`
 
     for (let j = 0; j < 16; j++) {
         cellDiv = document.createElement("div");
         cellDiv.classList.add("cell");
+        cellDiv.style.cssText = "flex: 1; text-align: center;"
 
-        // cellDiv.textContent = `${j}`;
-        cellDiv.textContent = "cell";
         cellDiv.style.border = "1px solid gray";
 
         rowDiv.appendChild(cellDiv);
