@@ -24,8 +24,8 @@ cells.forEach(cell => cell.addEventListener("mouseover", () => {
     cell.classList.add("hovered");
 }));
 
-function hoverOut() {
-    this.classList.remove("hovered");
-}
-cells.forEach(cell => cell.addEventListener("mouseout", hoverOut));
+// function hoverOut() {
+//     this.classList.remove("hovered");
+// }
+// cells.forEach(cell => cell.addEventListener("mouseout", hoverOut));
 
