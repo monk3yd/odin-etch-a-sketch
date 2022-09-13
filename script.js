@@ -50,8 +50,7 @@ function createGrid(height, width, container) {
         rowDiv.classList.add("row");
         rowDiv.style.cssText = `display: flex;
             justify-content: space-around; 
-            flex: 1;
-            gap: 1rem;`
+            flex: 1;`
 
         for (let j = 0; j < width; j++) {
             cellDiv = document.createElement("div");

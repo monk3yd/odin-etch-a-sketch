@@ -22,7 +22,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
-    gap: 1rem;
     padding: 1rem;
     min-height: inherit;
     width: 100vw;
